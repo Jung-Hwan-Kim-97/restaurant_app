@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 //LIB
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:restaurant_app/screen/food_screen.dart';
-import 'package:restaurant_app/screen/login_screen.dart';
-import 'package:restaurant_app/screen/order_screen.dart';
-import 'package:restaurant_app/screen/profile_screen.dart';
-import 'package:restaurant_app/screen/rastaurant_detail_screen.dart';
+import 'package:restaurant_app/view/screen/food_screen.dart';
+import 'package:restaurant_app/view/screen/login_screen.dart';
+import 'package:restaurant_app/view/screen/order_screen.dart';
+import 'package:restaurant_app/view/screen/profile_screen.dart';
+import 'package:restaurant_app/view/screen/rastaurant_detail_screen.dart';
 //SCREEN
-import 'package:restaurant_app/screen/rastaurant_screen.dart';
-import 'package:restaurant_app/screen/splash_screen.dart';
+import 'package:restaurant_app/view/screen/rastaurant_screen.dart';
+import 'package:restaurant_app/view/screen/splash_screen.dart';
 
 final RouteObserver<ModalRoute<void>> routeObserver =
     RouteObserver<ModalRoute<void>>();
